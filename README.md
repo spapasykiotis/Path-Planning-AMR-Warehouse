@@ -37,6 +37,10 @@ The system is composed of two primary phases:
 
 ## Project Structure
 
+<details>
+<summary><strong>Click to expand</strong></summary>
+
+```text
 Path-Planning-AMR-Warehouse/
 ├── Astar/
 │   ├── astar_planner.py
@@ -72,6 +76,9 @@ Path-Planning-AMR-Warehouse/
 │   └── warehouse4.png
 ├── README.md
 └── Statistics.xlsx
+```
+
+</details>
 
 ## Features
 
