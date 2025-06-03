@@ -1,4 +1,4 @@
-# Path Planning Algorithms for Autonomous Mobile Robots
+# Path Planning Algorithms for Autonomous Mobile Robots in Warehouse Environments
 
 ## Overview
 
@@ -38,40 +38,40 @@ The system is composed of two primary phases:
 ## Project Structure
 
 Path-Planning-AMR-Warehouse/
-├── Astar
-│   ├── astar_planner.py
-│   ├── astar_simulation.py
-│   ├── env.py
-│   └── plotting.py
-├── Dstar
-│   ├── dstar_planner.py
-│   ├── dstar_simulation.py
-│   ├── env.py
-│   └── plotting.py
-├── Dstar Lite
-│   ├── dstar_lite.py
-│   ├── dstar_lite_simulation.py
-│   ├── env.py
-│   └── plotting.py
-├── Plots
-│   ├── 1 robot
-│   ├── 2 robots
-│   ├── 4 robots
-│   └── 6 robots
-├── README.md
-├── RRT
-│   ├── drrt_simulation.py
-│   ├── dynamic_rrt.py
-│   ├── env.py
-│   ├── grid_rrt.py
-│   ├── plotting.py
-│   └── utils.py
-├── Statistics.xlsx
-└── Warehouses
-    ├── warehouse1.png
-    ├── warehouse2.png
-    ├── warehouse3.png
-    └── warehouse4.png
+- Astar/
+  - astar_planner.py
+  - astar_simulation.py
+  - env.py
+  - plotting.py
+- Dstar/
+  - dstar_planner.py
+  - dstar_simulation.py
+  - env.py
+  - plotting.py
+- Dstar Lite/
+  - dstar_lite.py
+  - dstar_lite_simulation.py
+  - env.py
+  - plotting.py
+- RRT/
+  - drrt_simulation.py
+  - dynamic_rrt.py
+  - env.py
+  - grid_rrt.py
+  - plotting.py
+  - utils.py
+- Plots/
+  - 1 robot/
+  - 2 robots/
+  - 4 robots/
+  - 6 robots/
+- Warehouses/
+  - warehouse1.png
+  - warehouse2.png
+  - warehouse3.png
+  - warehouse4.png
+- README.md
+- Statistics.xlsx
 
 ## Features
 
@@ -79,7 +79,7 @@ Path-Planning-AMR-Warehouse/
 - Visual representation of algorithm behavior and path generation.
 - Modular design allowing easy testing and extension of algorithms.
 
-## Repository Dependency
+## Repository Mention
 
 This project utilizes and adapts code from the following open-source repository:
 
